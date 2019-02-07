@@ -1,10 +1,10 @@
-# Scholar.txt 1
-## Simple-CV
+# Atom & Git
+## Simple-Site
 
 <small><a href="http://moacir.com">Moacir P. de Sá Pereira</a> / <a href="http://twitter.com/muziejus">@muziejus</a><br />
 Research Data Librarian | <a href="http://library.columbia.edu">Columbia University Libraries</a><br />
 moacir.p@columbia.edu<br />
-NY, NY, 6 February 2019</small>
+NY, NY, 7 February 2019</small>
 
 Note: Thanks all for coming, and let’s get started on today’s workshop. First
 thing’s first, I want you all to open up this presentation on your computers.
@@ -12,7 +12,7 @@ It will make things much, much easier. Head on over to
 
 ---
 
-## [talks.moacir.com/simple-cv](http://talks.moacir.com/simple-cv)
+## [talks.moacir.com/atom-and-git](http://talks.moacir.com/atom-and-git)
 
 Note: This will let you follow along with me, which will come in handy when
 you have to click on links and copy paste things.
@@ -25,20 +25,18 @@ you have to click on links and copy paste things.
 <div class="col-6">
 <h3><i class="fab fa-apple"></i> MacOS</h3>
 <ol>
-<li>MacTeX (<a href="http://tug.org/mactex/">tug.org/mactex/</a>)</li>
 <li>Atom (<a href="http://atom.io">atom.io</a>)</li>
 <li>Git (installed via Atom)</li>
-<li>Pandoc (<a href="http://pandoc.org">pandoc.org</a>)</li>
+<li>GitHub Desktop (<a href="https://desktop.github.com/">GitHub Desktop</a></li>
 </ol>
 </div>
 
 <div class="col-6">
 <h3><i class="fab fa-windows"></i> Windows</h3>
 <ol>
-<li>MiKTeX (<a href="http://miktex.org">miktex.org</a>)</li>
 <li>Atom (<a href="http://atom.io">atom.io</a>)</li>
 <li>Git (<a href="http://gitforwindows.org">gitforwindows.org</a>)</li>
-<li>Pandoc (<a href="http://pandoc.org">pandoc.org</a>)</li>
+<li>GitHub Desktop (<a href="https://desktop.github.com/">GitHub Desktop</a></li>
 </ol>
 </div>
 
@@ -46,42 +44,36 @@ Note: While these are all downloading, I’ll describe a bit...
 
 ---
 
-## While All That’s Downloading, Three Processes:
+## While All That’s Downloading, Why Atom?
 
-1. Constructing and formatting a CV
-1. Publishing the CV online
-1. Putting the CV under version control
-
----
-
-## Constructing and Formatting a CV
-
-1. Edit metadata about CV (formatted in [YAML](https://rollout.io/blog/yaml-tutorial-everything-you-need-get-started/)
-1. Edit contents of CV sections (formatted in [Markdown](https://guides.github.com/features/mastering-markdown/))
-1. Process sections and metadata with a shell script
-1. Repeat
+<ol>
+<li class="fragment">Free</li>
+<li class="fragment">Similar across platforms</li>
+<li class="fragment">One-stop shop with integrated shell</li>
+<li class="fragment">Excellent Git/GitHub support built in</li>
+</ol>
 
 ---
 
-## Publishing the CV Online
+## Isn’t Google Docs Free and Platform Agnostic?
 
-1. Getting the Simple-CV code (git clone)
-1. Making our changes and processing them (“constructing and formatting a CV”)
-1. Adding a milestone to our work (git commit)
-1. Putting the work online as a webpage (git push)
-1. Repeat (except getting the code)
-
----
-
-## Putting the CV under Version Control
-
-1. Uh. It’s time for Git.
-1. Wait why Git?
-1. Not Git. Please not Git.
+<ol>
+<li class="fragment">“Free”</li>
+<li class="fragment">Ethics, Availability, and Sustainability of Plain Text (see <a href="https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown">Tenen and Wythoff</a>)</li>
+</ol>
 
 ---
 
-## Git
+## OK, but *Git*?
+
+<ol>
+<li class="fragment">Not Git. Please not Git.</li>
+</ol>
+
+
+---
+
+## Git Is…
 
 * “free and open source distributed version control system designed to handle
 everything from small to very large projects with speed and efficiency.”
@@ -96,19 +88,19 @@ to make it useful for you.
 
 ---
 
-## The Four Steps to Git
+## Git Is…
 
-1. Save
-1. Stage
-1. Commit
-1. Push
-
-Note: For most purposes if you’re working on Git on your own, you’re content
-with these four commands. This is a process of recording your work.
+<ol>
+<li class="fragment">Part of a backup solution</li>
+<li class="fragment">An intention tracker/writing journal</li>
+<li class="fragment">A declutterer</li>
+<li class="fragment">A multi-verse generator</li>
+<li class="fragment">A collaboration engine</li>
+</ol>
 
 ---
 
-## The Four Steps to Git
+## The Four Main Steps to Git
 
 <ol>
 <li class="fragment">Save - continuous (with autosave). Not even part of Git.</li>
