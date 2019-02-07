@@ -27,7 +27,7 @@ you have to click on links and copy paste things.
 <ol>
 <li>Atom (<a href="http://atom.io">atom.io</a>)</li>
 <li>Git (installed via Atom)</li>
-<li>GitHub Desktop (<a href="https://desktop.github.com/">GitHub Desktop</a></li>
+<li>GitHub Desktop (<a href="https://desktop.github.com/">GitHub Desktop</a>)</li>
 </ol>
 </div>
 
@@ -36,7 +36,7 @@ you have to click on links and copy paste things.
 <ol>
 <li>Atom (<a href="http://atom.io">atom.io</a>)</li>
 <li>Git (<a href="http://gitforwindows.org">gitforwindows.org</a>)</li>
-<li>GitHub Desktop (<a href="https://desktop.github.com/">GitHub Desktop</a></li>
+<li>GitHub Desktop (<a href="https://desktop.github.com/">GitHub Desktop</a>)</li>
 </ol>
 </div>
 
@@ -153,11 +153,14 @@ parts of your CV.
 1. Clone your own, forked `simple-site` repository from GitHub via Atom’s
    Command Palette (cmd-shift-p or ctrl-shift-p).
 1. Link Atom to GitHub via the GitHub panel in Atom.
-1. Start editing
 
 Note: Atom is brought to us by the people at GitHub. It probably won’t win you
 any cool kid awards amongst your hacker nerd friends, but it’s an easy editor
 to learn, I think, and its Git integration is tip-top.
+
+---
+
+![Screenshot of Atom](https://i.imgur.com/l9OTjBn.png)
 
 ---
 
@@ -173,23 +176,31 @@ to learn, I think, and its Git integration is tip-top.
 
 ## Markdown?
 
-* Yes, a [Guide to Markdown](https://guides.github.com/features/mastering-markdown/)
+* Yes, a [Markdown](https://guides.github.com/features/mastering-markdown/)
 
 ---
 
-## Adding a Milestone: Atom
-
-1. Edit metadata files
-1. Edit sections files, add new ones, edit sections.txt
-1. Process files via interactive shell
-1. Save, Stage, Commit
+![Screenshot of Markdown in action](https://i.imgur.com/KDmpwYM.png)
 
 ---
 
-## Putting the Work Online as a Webpage
+## Create a New Post
 
-1. Push
-1. There is no step 2.
+---
+
+![The four steps to git](https://i.imgur.com/mNfax2z.png)
+
+--> Icons by Font Awesome. [License](https://fontawesome.com/license).
+
+---
+
+## OK, but Git
+
+<ol>
+<li class="fragment">Branching</li>
+<li class="fragment">Issue Tracking via GitHub and Closing via Commit (“closes #n”)</li>
+<li class="fragment"><a href="http://ohshitgit.com">Messing Up</a></li>
+</ol>
 
 ---
 
