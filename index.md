@@ -127,10 +127,6 @@ conceit of Git.
 
 ---
 
-## Hopefully downloading is done, so let’s install…
-
----
-
 ## You’re not working on a _document_.<br />You’re working on a _project_.
 
 Note: For the rest of today, we’ll be working on a project that is your CV.
@@ -142,33 +138,21 @@ parts of your CV.
 
 ---
 
-## Back to Publishing the CV Online
-
-1. Getting the Simple-CV code (git clone)
-1. Making our changes and processing them (“constructing and formatting a CV”)
-1. Adding a milestone to our work (git commit)
-1. Putting the work online as a webpage (git push)
-1. Repeat (except getting the code)
-
----
-
-## Getting the Simple-CV Code: GitHub <i class="fab fa-github"></i>
+## Working with Git via GitHub <i class="fab fa-github"></i> and Simple-Site
 
 1. Create an account at [github.com](http://github.com)
-1. Fork the [`simple-cv`
-   repository](http://github.com/plain-plain-text/simple-cv) (or “project.”)
+1. Fork the [`simple-site`
+   repository](http://github.com/plain-plain-text/simple-site) (or “project.”)
 1. Enable GitHub pages on the new repository
-
-Note: for this part, I get to do some live demoing along with you all. What is
-GitHub?
 
 ---
 
-## Making changes: Atom, the Plain Text editor
+## Back to Atom
 
 1. Install Atom plugins: [github.com/plain-plain-text/atom-config/](http://github.com/plain-plain-text/atom-config)
-1. Clone your own `simple-cv` fork repository from GitHub
-1. Link Atom to GitHub
+1. Clone your own, forked `simple-site` repository from GitHub via Atom’s
+   Command Palette (cmd-shift-p or ctrl-shift-p).
+1. Link Atom to GitHub via the GitHub panel in Atom.
 1. Start editing
 
 Note: Atom is brought to us by the people at GitHub. It probably won’t win you
@@ -177,19 +161,19 @@ to learn, I think, and its Git integration is tip-top.
 
 ---
 
-## Key Files in Simple-CV
+## Key Files in Simple-Site
 
-* 📁 metadata (YAML metadata files)
-    * format.yml
-    * html-options.yml
-    * pdf-options.yml
-    * personal.yml
-* 📁 docs (the files that make up the webpage)
-* 📁 sections (Markdown files that make up the content)
-* 📁 templates (TeX and html templates to fill with CV content)
-* process.ps1 (Windows Powershell script to generate CVs)
-* process.sh (MacOS / Linux script to generate CVs)
-* sections.txt (List of files in sections folder to put CV in order)
+* 📁 `_posts` (Where posts go, as Markdown files)
+    * `YYYY-MM-DD-some-title.md` (For example)
+* `_config.yml` (Configurations in [YAML](https://rollout.io/blog/yaml-tutorial-everything-you-need-get-started/)) 
+* `index.md` (Front page, as a Markdown file)
+* `about.md` (About page, as a Markdown file)
+
+---
+
+## Markdown?
+
+* Yes, a [Guide to Markdown](https://guides.github.com/features/mastering-markdown/)
 
 ---
 
