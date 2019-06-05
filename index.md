@@ -1,10 +1,9 @@
-# Atom & Git
-## Simple-Site
+# Foundations of Collaborative Digital Web Projects
 
 <small><a href="http://moacir.com">Moacir P. de Sá Pereira</a> / <a href="http://twitter.com/muziejus">@muziejus</a><br />
 Research Data Librarian | <a href="http://library.columbia.edu">Columbia University Libraries</a><br />
 moacir.p@columbia.edu<br />
-NY, NY, 7 February 2019</small>
+NY, NY, 6 June 2019</small>
 
 Note: Thanks all for coming, and let’s get started on today’s workshop. First
 thing’s first, I want you all to open up this presentation on your computers.
@@ -12,7 +11,7 @@ It will make things much, much easier. Head on over to
 
 ---
 
-## [talks.moacir.com/atom-and-git](http://talks.moacir.com/atom-and-git)
+## [talks.moacir.com/itsi-19](http://talks.moacir.com/itsi-19)
 
 Note: This will let you follow along with me, which will come in handy when
 you have to click on links and copy paste things.
@@ -26,8 +25,7 @@ you have to click on links and copy paste things.
 <h3><i class="fab fa-apple"></i> MacOS</h3>
 <ol>
 <li>Atom (<a href="http://atom.io">atom.io</a>)</li>
-<li>Git (installed via Atom)</li>
-<li>GitHub Desktop (<a href="https://desktop.github.com/">GitHub Desktop</a>)</li>
+<li>Git (installed via Terminal)</li>
 </ol>
 </div>
 
@@ -36,7 +34,6 @@ you have to click on links and copy paste things.
 <ol>
 <li>Atom (<a href="http://atom.io">atom.io</a>)</li>
 <li>Git (<a href="http://gitforwindows.org">gitforwindows.org</a>)</li>
-<li>GitHub Desktop (<a href="https://desktop.github.com/">GitHub Desktop</a>)</li>
 </ol>
 </div>
 
@@ -138,11 +135,11 @@ parts of your CV.
 
 ---
 
-## Working with Git via GitHub <i class="fab fa-github"></i> and Simple-Site
+## Working with Git via GitHub <i class="fab fa-github"></i> and Simple-Data-Site
 
 1. Create an account at [github.com](http://github.com)
-1. Fork the [`simple-site`
-   repository](http://github.com/plain-plain-text/simple-site) (or “project.”)
+1. Fork the [`simple-data-site`
+   repository](http://github.com/plain-plain-text/simple-data-site) (or “project.”)
 1. Enable GitHub pages on the new repository
 
 ---
@@ -150,7 +147,7 @@ parts of your CV.
 ## Back to Atom
 
 1. Install Atom plugins: [github.com/plain-plain-text/atom-config/](http://github.com/plain-plain-text/atom-config)
-1. Clone your own, forked `simple-site` repository from GitHub via Atom’s
+1. Clone your own, forked `simple-data-site` repository from GitHub via Atom’s
    Command Palette (cmd-shift-p or ctrl-shift-p).
 1. Link Atom to GitHub via the GitHub panel in Atom.
 
@@ -166,13 +163,17 @@ to learn, I think, and its Git integration is tip-top.
 
 ## Key Files in Simple-Site
 
-* 📁 `_posts` (Where posts go, as Markdown files)
-    * `YYYY-MM-DD-some-title.md` (For example)
-* `_config.yml` (Configurations in [YAML](https://rollout.io/blog/yaml-tutorial-everything-you-need-get-started/)) 
-* `index.md` (Front page, as a Markdown file)
-* `about.md` (About page, as a Markdown file)
+* 📁 `final` (An example of where we’ll end up)
+* `favorite-songs.csv` (Our dataset, as a CSV)
+* `index.html` (Front page, as an HTML file)
+* `script.js` (Our JavaScript)
+* `style.css` (Our CSS)
 
 ---
+
+![Three components of a web page](https://i.imgur.com/KGSNQGH.png)
+
+--- 
 
 ## Markdown?
 
