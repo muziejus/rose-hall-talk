@@ -18,6 +18,12 @@ you have to click on links and copy paste things.
 
 ---
 
+## [Our Google Sheets dataset](https://docs.google.com/spreadsheets/d/1ayByYuU-nXn0acn5CKN5dabJ3csdzbUSpppn5uO2qnM/edit?usp=sharing)
+
+### (Add your favorite song)
+
+---
+
 ## Software to Get
 
 <div class="row">
@@ -58,30 +64,6 @@ Note: While these are all downloading, I’ll describe a bit...
 <li class="fragment">“Free”</li>
 <li class="fragment">Ethics, Availability, and Sustainability of Plain Text (see <a href="https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown">Tenen and Wythoff</a>)</li>
 </ol>
-
----
-
-## OK, but *Git*?
-
-<ol>
-<li class="fragment">Not Git. Please not Git.</li>
-</ol>
-
-
----
-
-## Git Is…
-
-* “free and open source distributed version control system designed to handle
-everything from small to very large projects with speed and efficiency.”
-* “easy to learn.”
-* A busybody keeping track of all the changes to all your files and never
-forgetting them.
-
-Note: That part about “easy to learn” is probably not true. Git is insanely
-powerful, and even people who use it every day probably don’t use more than a
-tiny chunk of it. And that’s because what IS easy is learning just enough Git
-to make it useful for you.
 
 ---
 
@@ -157,11 +139,11 @@ to learn, I think, and its Git integration is tip-top.
 
 ---
 
-![Screenshot of Atom](https://i.imgur.com/l9OTjBn.png)
+![Screenshot of Atom](https://i.imgur.com/SZZsMA4.png)
 
 ---
 
-## Key Files in Simple-Site
+## Key Files in Simple-Data-Site
 
 * 📁 `final` (An example of where we’ll end up)
 * `favorite-songs.csv` (Our dataset, as a CSV)
@@ -173,19 +155,76 @@ to learn, I think, and its Git integration is tip-top.
 
 ![Three components of a web page](https://i.imgur.com/KGSNQGH.png)
 
---- 
+---
 
-## Markdown?
-
-* Yes, a [Markdown](https://guides.github.com/features/mastering-markdown/)
+## Open up `index.html` in Your Browser and in Atom
 
 ---
 
-![Screenshot of Markdown in action](https://i.imgur.com/KDmpwYM.png)
+![index.html in Atom and Browser](https://i.imgur.com/tiAzRgu.png)
 
 ---
 
-## Create a New Post
+## Activate Vue.js in `script.js`
+
+<pre><code class="js">const app = new Vue({
+  // This designates the el(ement) in which Vue will operate.
+  // "#" is short hand for "the element with the id of…"
+  el: "#main-container",
+  // This designates the data Vue will send to our page. 
+  // For example, it defines a "card" property/variable.
+  data: {
+    card: "card made by Vue!"
+  }
+});
+</code></pre>
+
+---
+
+![index.html in Atom and Browser with vue.](https://i.imgur.com/OpKyP6A.png)
+
+---
+
+## Read in Data
+
+<pre><code class="js">
+const dataUrl = "https://plain-plain-text.github.io/simple-data-site/favorite-songs.csv";
+d3.csv(dataUrl).then(function(songs) {
+  // print the value of the songs parameter
+  console.log(songs);
+  const app = new Vue({
+    el: "#main-container",
+    data: {
+      card: "card made by Vue!",
+      songs: songs
+    }
+  }); 
+});
+</code></pre>
+
+---
+
+![script.js with console message](https://i.imgur.com/mCC4TIw.png)
+
+---
+
+## Replace Card with Vue.js Loop
+
+<pre><code class="html"><div v-for="song in songs">
+  <div class="card">
+    <div class="card-body">
+      <h2 class="card-title">{{ song.songName }}</h2>
+      <p class="card-text">
+        I am a song performed by {{ song.artist }}
+      </p>
+    </div>
+  </div>
+</div>
+</code></pre>
+
+---
+
+![Vue.js in action](https://i.imgur.com/fZzMplo.png)
 
 ---
 
@@ -195,15 +234,24 @@ to learn, I think, and its Git integration is tip-top.
 
 ---
 
-## OK, but Git
-
-<ol>
-<li class="fragment">Branching</li>
-<li class="fragment">Issue Tracking via GitHub and Closing via Commit (“closes #n”)</li>
-<li class="fragment"><a href="http://ohshitgit.com">Messing Up</a></li>
-</ol>
+![Committing and pushing in Atom](https://i.imgur.com/TQf9GYN.png)
 
 ---
+
+## Check Your Page:
+
+### `yourgithubname.github.io/simple-data-site`
+
+---
+
+## Now, Edit Away!
+
+* CSS & components: [<i class="fab fa-bootstrap"></i> Bootstrap](http://getbootstrap.com)
+* More on Vue: [<i class="fab fa-vuejs"></i> Vue.js introduction](https://vuejs.org/v2/guide/index.html)
+
+
+---
+
 
 ## Thanks!
 ### [@muziejus](http://twitter.com/muziejus) / moacir.p@columbia.edu
