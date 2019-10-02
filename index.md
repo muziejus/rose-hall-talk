@@ -11,7 +11,7 @@ It will make things much, much easier. Head on over to
 
 ---
 
-## [talks.moacir.com/laic-19](http://talks.moacir.com/gitsertation-1-19)
+## [talks.moacir.com/gitsertation-1-19](http://talks.moacir.com/gitsertation-1-19)
 
 Note: This will let you follow along with me, which will come in handy when
 you have to click on links and copy paste things.
