@@ -1,9 +1,9 @@
-# Possible DHs
+# PhD Gitsertation 1
 
 <small><a href="http://moacir.com">Moacir P. de Sá Pereira</a> / <a href="http://twitter.com/muziejus">@muziejus</a><br />
 Research Data Librarian | <a href="http://library.columbia.edu">Columbia University Libraries</a><br />
 moacir.p@columbia.edu<br />
-NY, NY, 25 September 2019</small>
+NY, NY, 2 October 2019</small>
 
 Note: Thanks all for coming, and let’s get started on today’s workshop. First
 thing’s first, I want you all to open up this presentation on your computers.
@@ -11,91 +11,135 @@ It will make things much, much easier. Head on over to
 
 ---
 
-## [talks.moacir.com/laic-19](http://talks.moacir.com/laic-19)
+## [talks.moacir.com/laic-19](http://talks.moacir.com/gitsertation-1-19)
 
 Note: This will let you follow along with me, which will come in handy when
 you have to click on links and copy paste things.
 
 ---
 
+## Software to Get
+
+<div class="row">
+<div class="col-6">
+<h3><i class="fab fa-apple"></i> MacOS</h3>
+<ol>
+<li>Git (installed via Terminal in Utilities folder <code>⌘⇧U</code>)</li>
+<li>GitHub Desktop (<a href="https://desktop.github.com/">GitHub Desktop</a>)</li>
+</ol>
+</div>
+
+<div class="col-6">
+<h3><i class="fab fa-windows"></i> Windows</h3>
+<ol>
+<li>Git (<a href="http://gitforwindows.org">gitforwindows.org</a>)</li>
+<li>GitHub Desktop (<a href="https://desktop.github.com/">GitHub Desktop</a>)</li>
+</ol>
+</div>
+
+---
+
 ## Outline
 
-1. Theory
+1. Intro and Discussion
 
-2. Praxis
-
----
-
-## History of DH?
-
-1. What do we mean by “digital”?
-
-2. What do we mean by “humanities”?
-
-3. [_A Companion to Digital Humanities_](http://www.digitalhumanities.org/companion/) (2004)
-
-4. [_Debates in Digital Humanities_](https://dhdebates.gc.cuny.edu/) (2012, 2016, 2019)
-
-Note: objects vs. methods
+2. Light Gitting
 
 ---
 
-## Theory DH?
-
-Massumi in _A Thousand Plateaus_
-
-Note: object and the archive
+## Not Dissertating by Optimizing the Means of Optimal Dissertating
 
 ---
 
-## Global DH?
+### Not Dissertating by Optimizing the Means of Optimal Dissertating
 
-Tenen in _Plain Text_
-
----
-
-## LAIC and DH
-
-* [RedHD](http://www.humanidadesdigitales.net/) ([@Red_HD](https://twitter.com/red_hd))
-* [Global Outlook::DH](http://www.globaloutlookdh.org/)
-* [Around DH in 80 Days](http://www.arounddh.org/)
-* [Multilingual DH](http://multilingualdh.org)
+1. What’s your name?
+2. What department are you in?
+3. Are you courseworking, proposing, dissertating, somewhere in between?
+4. How have you optimized the means of optimal dissertating?
+5. (read: why did you come?)
 
 ---
 
-## Praxis
-
-* [Recogito](https://recogito.pelagios.org/) (“Semantic annotation without the pointy brackets”)
-* [Wax](https://minicomp.github.io/wax/) (Digital exhibitions / archives)
-* [spaCy](https://spacy.io/) (“Industrial-strength natural language processing”)
-* [Voyant](https://voyant-tools.org/) (Web-based text analysis)
-* [Leaflet](http://leafletjs.com) (Web-based mapping)
-
+## Parkinson’s Law:<br />Work expands to fill up available time
 
 ---
 
-## [talks.moacir.com/laic-19/files.zip](http://talks.moacir.com/laic-19/files.zip)
-
-Download the files.
+## Or:<br />If you wait until the last minute, it only takes a minute
 
 ---
 
-## Links
-
-* [_El ingenioso hidalgo don Quijote de la Mancha_](https://www.gutenberg.org/ebooks/2000)
-* [Annotated _Codex Mendoza_, p.  2](https://codicemendoza.inah.gob.mx/index.php?lang=spanish&folio_number=8&type=r&section=t)
-* [Same page at Digital Bodleian](https://digital.bodleian.ox.ac.uk/inquire/Discover/Search/#/?p=c+0,t+,rsrs+0,rsps+10,fa+,so+ox%3Asort%5Easc,scids+,pid+2fea788e-2aa2-4f08-b6d9-648c00486220,vi+f4543073-51d3-4fbc-994e-a7080afebc8a)
-* [Same page at Mapas Project](https://mapas.uoregon.edu/mend/elements/mend2r/000)
+## What to do?
 
 ---
 
-## [https://recogito.pelagios.org](https://recogito.pelagios.org)
-
-Create an account.
+<img src="https://i.imgur.com/WGpZD3U.png" alt="Cover of The Dissertation
+Journey" style="max-height: 70vh;" />
 
 ---
 
-## Annotate!
+## [“Project Management Simplified”](https://clio.columbia.edu/catalog/11348937)
+
+* == Know your constraints
+* == Break your project apart
+* == Find your blockers
+
+---
+
+## Gantt Chart
+
+![Gantt Chart](https://upload.wikimedia.org/wikipedia/commons/3/37/GANTT_Chart.JPG)
+
+---
+
+## Dissertation to Gitsertation?
+
+---
+
+## Git Lets You…
+
+* == Track Changes
+* == Backup 
+* == Journal 
+* == Handle To-Dos (with GitHub)
+
+---
+
+## Your Dissertation Is Not a _Document_.<br />It Is a _Project_.
+
+---
+
+<blockquote style="width: 80vw">Every [Git] repository is a complete, self-contained, cryptographically
+signed copy of [your dissertation], with a log of every recorded step in its
+development… It puts you in the habit of committing
+changes to a file or project piecemeal as you work on it, and (briefly)
+documenting those changes as you go. It allows you to easily test out
+alternative lines of development or thinking by creating “branches” of a
+project… Perhaps most importantly, it lets you revisit any stage of a
+project’s development at will and reconstruct what it was you were doing.</blockquote>
+
+--> K. Healy, [_The Plain Person’s Guide to Plain Text Social
+Science_](https://kieranhealy.org/publications/plain-person-text/)
+
+---
+
+![The four steps to git](https://i.imgur.com/mNfax2z.png)
+
+--> Icons by Font Awesome. [License](https://fontawesome.com/license).
+
+---
+
+## Last set of links:
+
+* [GitHub <i class="fab fa-github"></i>](https://github.com)
+* [Zenhub](https://www.zenhub.com/) (GitHub + Kanban)
+
+---
+
+## Next Week:
+
+* Writing with Git
+* Git and Zotero
 
 ---
 
