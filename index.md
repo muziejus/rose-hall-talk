@@ -127,5 +127,5 @@ together, like being contaminated together, becomes an act of solidarity.
 ---
 
 ## Thanks!
-## [talks.moacir.com/tiny-dh-dhcs2019](http://talks.moacir.com/tiny-dh-dhcs2019)
+## [talks.moacir.com/tiny-dh-19](http://talks.moacir.com/tiny-dh-19)
 ### [@muziejus](http://twitter.com/muziejus) / moacir.p@columbia.edu
