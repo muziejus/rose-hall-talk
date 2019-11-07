@@ -164,6 +164,40 @@ things of meaning and value and gather[s] them together like a forager,” but
 because the focus of Tsing’s work is the mushroom and its assemblages, Tsing
 moves past how Le Guin narrows the carrier bag to the novel itself. 
 
+That is, when Le Guin says that the “natural, proper, fitting shape of the
+novel might be that of a sack, a bag,” we can see the novel as an assemblage.
+Le Guin continues by saying that a book holds words, and they hold things,
+but a bag doesn’t hold just one kind of thing. A bag—the same bag at the same
+time—can hold iced coffee in a thermos, two spare ponchos, a MacBook, 18
+pieces of chalk each under 2 inches long, and another bag veering on a decade
+old used for supplemental grocery shopping. Similarly, a novel doesn’t just or
+only contain words. It contains affect, it contains built worlds.
+
+When what’s inside a bag is a question of what happened to be at hand, then
+thinking of the bag in scalar terms, especially hierarchical scalar terms
+falls under unsupportable scrutiny. The scales of the rush of stories don’t
+nest, like Tsing writes, echoing the critique of scale undertaken in human
+geography by scholars like Sallie Marston. 
+
+That is, research projects rely on a scalar logic that disturbs or effects the
+projects into being. Hierarchical geographical scale should be familiar to all
+of us. We’ve used Google Maps’s zoom function to intuit that states contain
+counties contain cities contain neighborhoods contain houses. It cannot be
+that a city contains a state. But this scale is misleadingly geographical; it
+is actually a political hierarchy that has geographical implications, in that
+we collect data “at the city level” or “at the census tract level.”
+
+Novels obey no such hierarchical, scalar form. Or at least the affective
+response of reading a novel and being contaminated by it should not obey this
+form. This might be controversial, as one might respond—and even Le Guin can
+be criticzed for this—that of course novels have hierarchies. Novels have
+chapters, which have paragraphs, which have sentences, which have words, which
+have letters or phonemes or morphemes. And the exceptions to this hierarchy
+prove, quote unquote, the rule. We notice when a novel has no chapters. 
+
+But the point of Toad DH, of mushroom and tiny DH, is to resist thinking of
+novels in such hierarchical ways.
+
 ---
 
 ### Bibliography
