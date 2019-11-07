@@ -15,7 +15,40 @@ ask during discussion, or whatever.
 
 ---
 
-# What Is Tiny DH?
+## Caveat Auditor
+
+<div class="flex justify-around items-center max-height-50">
+<div class="">
+
+* (A theory of) Scholarly practice: 95%
+* (The practice of using) _Wandertext_: 5%
+
+</div>
+<div>
+  <a href="https://uchicagoadmissions.tumblr.com/post/13123492245/thats-all-well-and-good-in-practice-but-how-does">
+		<img class="fragment" src="https://i.imgur.com/13WgvDN.jpg">
+	</a>
+</div>
+</div>
+
+Note: First, a word of warning. Seeing as this paper is part of a panel
+entitled “evaluating the future,” and seeing that developing and delivering
+software is really tricky when the development team is just one person, me,
+I’ve reframed what I want to talk about a little bit. Instead of mostly
+presenting a tool, _Wandertext_, which is a web app for creating and sharing
+semantically rich geospatial data, I’d rather devote most of the next fifteen
+minutes on what I’d hope for the future of whatever follows that which we now
+call digital humanities. 
+
+In other words, as UofC likes to boast, “that’s all well and good in practice,
+but how does it work in theory?” One way of reading this Chicago undergrad’s
+joke is as an adherence to an anti-empiricist value system that rejects messy
+practice for clean theory. In what follows, the theory will get plenty messy,
+though, and that’s great. It’s the messy theory that makes the praxis human.
+
+---
+
+## What Is Tiny DH?
 
 <div class="flex justify-around items-center max-height-50">
 <div class="">
@@ -29,6 +62,7 @@ ask during discussion, or whatever.
 </div>
 <div>
 	<img class="fragment plain" src="https://i.imgur.com/N46LuHX.png">
+</div>
 </div>
 
 Note: I'm going to be talking today about tiny DH. As far as I can tell, I put
@@ -57,7 +91,7 @@ most modern science, which demands the possibility for infinite expansion
 without changing the research framework. Arts of noticing are considered
 archaic because they are unable to “scale up” in this way.
 
---> Tsing, _The Mushroom at the End of the World_, 37–38
+--> Tsing, 37–38.
 
 Note: In the Mushroom at the End of the World, Anna Tsing accomplishes a feat
 of making a case for an assemblage-driven anthropology that works even harder
@@ -85,7 +119,7 @@ our stories of death and near-death and gratuitous life are standing with us
 to face the challenges of the present [and so] we might encounter our best
 hopes for precarious survival.
 
---> Tsing, _Mushroom_, 34.
+--> Tsing, 34.
 
 Note: Contamination is a means by which something can become greater than the
 sum of its parts, the means by which an object can exhibit emergent
@@ -113,7 +147,22 @@ together, like being contaminated together, becomes an act of solidarity.
 
 ## “Its scales do not nest neatly”
 
+> [R]esearch projects often assume the hierarchy in advance, and are set up _a
+priori_ to obey its conventions. In short, hierarchical scale is a classic
+case of form determining content… whereby objects, events and processes come pre-sorted, ready
+to be inserted into the scalar apparatus at hand.
 
+--> Marston _et al._, 422.
+
+Note: In moving from a rush of stories to scale, the slippage grows more
+apparent. That is, is the rush of stories our varied readings of a certain
+novel or text or object, or is the rush of stories embedded inside the novel,
+the Bakhtinian polyphony that gives it its novelistic take? Tsing closes The
+Mushroom at the End of the World quoting from Ursula K. Le Guin’s essay “The
+Carrier Bag Theory of Fiction,” on how “storytelling [picks] up diverse
+things of meaning and value and gather[s] them together like a forager,” but
+because the focus of Tsing’s work is the mushroom and its assemblages, Tsing
+moves past how Le Guin narrows the carrier bag to the novel itself. 
 
 ---
 
@@ -122,6 +171,7 @@ together, like being contaminated together, becomes an act of solidarity.
 * Mikhail Bakhtin, [_Problems of Dostoevsky’s Poetics_](https://www.upress.umn.edu/book-division/books/problems-of-dostoevskyas-poetics), trans. Caryl Emerson (Minneapolis: U Minnesota P, 1984).
 * Djuna Barnes, _Nightwood_ [1936] (New York: New Directions, 2006).
 * Lauren Berlant, “[Genre Flailing](http://capaciousjournal.com/article/genre-flailing/),” _Capacious_ 1:2 (2018).
+* Sallie A. Marston, John Paul Jones III, and Keith Woodward, “[Human Geography without Scale](https://doi.org/10.1111/j.1475-5661.2005.00180.x),” _Transactions of the British Institute of Geographers_ 30:4 (2005), 416–432.
 * Anna Lowenhaupt Tsing, [_The Mushrooom at the End of the World: On the Possibility of Life in Capitalist Ruins_](https://press.princeton.edu/books/paperback/9780691178325/the-mushroom-at-the-end-of-the-world) (Princeton, NJ: Princeton UP, 2015).
 
 ---
