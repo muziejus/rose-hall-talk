@@ -1,12 +1,21 @@
-$("p").filter( function() {
-  return (this.textContent || this.innerText).match(/^-->/);
-}) .addClass("credit").html(function(i, html){
-  return html.replace(/^--&gt; /, "");
-});
+$("#bibliography")
+  .nextAll("ul")
+  .addClass("bibliography");
 
-$("li").filter( function() {
-  return (this.textContent || this.innerText).match(/^==/);
-}) .addClass("fragment").html(function(i, html){
-  return html.replace(/^== /, "");
-});
+$("p")
+  .filter(function() {
+    return (this.textContent || this.innerText).match(/^-->/);
+  })
+  .addClass("credit")
+  .html(function(i, html) {
+    return html.replace(/^--&gt; /, "");
+  });
 
+$("li")
+  .filter(function() {
+    return (this.textContent || this.innerText).match(/^==/);
+  })
+  .addClass("fragment")
+  .html(function(i, html) {
+    return html.replace(/^== /, "");
+  });
