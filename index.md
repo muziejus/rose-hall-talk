@@ -22,14 +22,14 @@ to rush to take pictures or anything like that.
 
 ## Caveat Auditor
 
-<div class="flex justify-around items-center max-height-50">
-<div class="">
+<div class="col-2">
+<div class="col">
 
 * (A theory of) Scholarly practice: 95%
 * (The practice of using) _Wandertext_: 5%
 
 </div>
-<div>
+<div class="col">
   <a href="https://uchicagoadmissions.tumblr.com/post/13123492245/thats-all-well-and-good-in-practice-but-how-does">
 		<img class="fragment" src="https://i.imgur.com/13WgvDN.jpg">
 	</a>
@@ -53,10 +53,12 @@ the praxis human.
 
 ---
 
+<div class="md:max-h-full">
+
 ## What Is Tiny DH?
 
-<div class="flex justify-around items-center max-height-50">
-<div class="">
+<div class="col-2 md:max-h-lessh2 md:overflow-y-hidden">
+<div class="col">
 	
 <ul>
   <li>Tiny DH →</li>
@@ -65,9 +67,11 @@ the praxis human.
 </ul>
 
 </div>
-<div>
-	<img class="fragment plain" src="https://i.imgur.com/N46LuHX.png">
+<div class="col">
+<img class="fragment plain md:max-h-full md:w-auto" src="https://i.imgur.com/N46LuHX.png">
 </div>
+</div>
+
 </div>
 
 Note: I'm going to be talking today about tiny DH. As far as I can tell, I was
@@ -298,10 +302,10 @@ pursue bigger projects and bigger questions and solve the world.
 
 ---
 
-<h2>So <span style="font-size: 50%">smol</h2>
+<h2>So <span class="text-xl">smol</span></h2>
 
-<div class="flex">
-<div class="w-50">
+<div class="col-2 items-start">
+<div class="col w-full md:w-1/2">
 
 ### Micro DH
 
@@ -312,7 +316,7 @@ pursue bigger projects and bigger questions and solve the world.
 --> From Risam & Edwards
 
 </div>
-<div class="w-50">
+<div class="col w-full md:w-1/2">
 
 ### Minimal Computing
 
@@ -450,11 +454,11 @@ thinking about that encounter itself, noticing and renoticing it.
 
 ---
 
-<img src="https://i.imgur.com/qzMg7Dg.png" alt="Nightwood Wandertext">
+<img class="mx-auto" src="https://i.imgur.com/qzMg7Dg.png" alt="Nightwood Wandertext">
 
 ---
 
-### Bibliography
+## Bibliography
 
 * Mikhail Bakhtin, _Problems of Dostoevsky’s Poetics_ (Minneapolis: U Minnesota P, 1984).
 * Lauren Berlant, “[Genre Flailing](http://capaciousjournal.com/article/genre-flailing/),” _Capacious_ 1:2 (2018).
